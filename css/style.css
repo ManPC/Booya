@@ -51,6 +51,28 @@ valores.*/
     font-size: xx-large;
 }
 
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
 ol,
 li {
     margin: 0;
@@ -158,164 +180,82 @@ h2 strong {
     margin: 0;
 }
 
-.header a {
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+.LogDisk {
+    margin: auto;
 }
 
-.menu {
-    height: inherit;
-}
-
-.header ol {
-    display: flex;
-    height: inherit;
-}
-
-.header ol li {
-    height: inherit;
-}
-
-.flexbox {
-    display: flex;
-    /*flex-direction: column;*/
-    flex-wrap: wrap;
-}
-
-.box {
-    width: 50px;
-    height: 50px;
+.logo-music {
     border: 1px solid red;
-    margin: 5px;
-    flex-shrink: 0;
+    display: flex;
+    margin: auto;
+    padding: 5px 200px;
+    background: black;
 }
 
-.footer {
-    background-color: #1b2127;
+.logo-music h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-inline-start: auto;
     color: white;
+}
+
+.reproducer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin: auto;
+    background-color: black;
 }
 
-.footer img {
-    vertical-align: middle;
-}
-
-.footer a {
+.playlist {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid red;
+    margin-right: auto;
+    margin-left: 320px;
     color: white;
 }
 
-.event-list {
-    display: flex;
-    flex-wrap: wrap;
+.social {
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
 }
-
-.event-list-title {
-    margin-left: 20px;
-}
-
-.event {
-    margin: 10px;
-    width: 580px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f4fbff;
-}
-
-.event img {
-    width: 580px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.event-details {
-    margin: 20px 40px;
-    margin-top: -40px;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-}
-
-.event-description {
-    text-align: left;
-}
-
-.event-url {
-    border: 1px solid;
-    padding: 5px 20px;
-    text-decoration: none;
-    color: #056fff;
-    border-radius: 5px;
-}
-
-.contact {
-    background-color: #056fff;
-    color: white;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.social {}
 
 .social-link {
     width: 50px;
     height: 50px;
-    display: inline-block;
+    display: grid;
     margin: 0 10px;
     background-size: 50px 50px;
+    border: 1px solid red;
 }
 
-.social-link.twitter {
-    background-image: url("../images/twitter.svg");
+.social-link.one {
+    background-image: url("https://i.imgur.com/I520uOG.png");
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.social-link.facebook {
-    background-image: url("../images/facebook.svg");
+.social-link.two {
+    background-image: url("https://i.imgur.com/I520uOG.png");
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.social-link.instagram {
-    background-image: url("../images/instagram.svg");
+.social-link.tree {
+    background-image: url("https://i.imgur.com/I520uOG.png");
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.social-link.github {
-    background-image: url("../images/github.svg");
-    ;
-}
-
-.form-email input {
-    border-color: gray;
-    border-radius: 5px;
-    border-style: solid;
-    padding: 10px 20px 10px 25px;
-    background-image: url("../images/envelope.svg");
-    background-size: 15px 15px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 5px;
-}
-
-.form-email button {
-    display: block;
-    margin-top: 10px;
-    background: transparent;
-    color: white;
-    padding: 10px 0px;
-    border-radius: 5px;
-    width: 100px;
-    /*margin: 10px auto 0;*/
-}
-
-.form-email h3 {
-    font-family: "Source Sans Pro", sans-serif;
+.social-link.four {
+    background-image: url("https://i.imgur.com/I520uOG.png");
+    margin-top: 5px;
+    margin-bottom: 5px;
     ;
 }
 
