@@ -37,6 +37,15 @@ valores.*/
 
 /* celeste = #026fff */
 
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
 .header {
     background-color: #1b2127;
     color: white;
@@ -105,7 +114,7 @@ h1 {
     letter-spacing: -.2px;
     color: white;
     text-align: right;
-    margin: 150px 100px 150px 800px;
+    margin: 0px 100px 150px 800px;
 }
 
 h1 strong {
@@ -258,9 +267,14 @@ h2 strong {
     background-repeat: no-repeat;
     background-size: 1200px 500px;
     background-position: center;
+    margin: 0;
 }
 
-.frase h4 {
+.buenafrase {
+    padding: 100px 20px;
+}
+
+.buenafrase h4 {
     color: white;
     font-family: 'Shadows Into Light', cursive;
     font-weight: lighter;
@@ -283,9 +297,14 @@ h4 strong {
 
 .logmov {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0px;
     width: 300px;
     height: 300px;
+}
+
+.logmov a {
+    margin: auto;
+    margin-top: 100px;
 }
 
 .social-link.five {
