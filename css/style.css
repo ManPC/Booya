@@ -152,24 +152,29 @@ h3 strong {
     margin: 0;
 }
 
+.Music {}
+
 .LogDisk {
-    margin: 0;
+    width: auto;
+    position: relative;
+    left: 25%;
 }
 
 .logo-music {
     display: flex;
     margin: auto;
-    padding-left: 35%;
     background: black;
+    position: relative;
 }
 
 .logo-music h3 {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 25px;
+    font-size: 3em;
     font-weight: bold;
     color: white;
-    padding-left: 10%;
-    padding-top: 1%;
+    padding: 5%;
+    position: relative;
+    right: 25%;
 }
 
 .reproducer {
@@ -181,23 +186,25 @@ h3 strong {
 
 .playlist {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 25px;
+    font-size: 2.5em;
     font-weight: bold;
-    padding-left: 35%;
+    padding-left: 28%;
     color: white;
 }
 
 .social {
     display: grid;
-    padding-left: 20%;
+    padding-left: 30%;
 }
 
 .social-link {
-    width: 50px;
-    height: 50px;
-    display: grid;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
     margin: 0 10px;
-    background-size: 50px 50px;
+    background-size: 115px 115px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .social-link.one {
@@ -295,7 +302,7 @@ h4 strong {
     margin-right: 100px;
 }
 
-.social-link {
+.zocial-link {
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -345,7 +352,14 @@ h5 strong {
     flex-wrap: inherit;
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .LogDisk {
+        padding-top: 5%;
+    }
+    .logo-music h3 {
+        right: 15%;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .header {
@@ -382,7 +396,18 @@ h5 strong {
         width: 40%;
     }
     .logo-music {
-        padding-left: 25%;
+        position: relative;
+    }
+    .LogDisk {
+        position: relative;
+        left: 5%;
+    }
+    .logo-music h3 {
+        padding-left: 0;
+        padding-top: 0;
+        position: absolute;
+        top: 25%;
+        right: 10%;
     }
     .reproducer {
         padding-right: 25%;
@@ -399,11 +424,18 @@ h5 strong {
         z-index: 1;
     }
     .logo-music {
-        padding: 15%;
+        padding: 5%;
     }
     .logo-music h3 {
         padding-left: 0;
-        padding-top: 10%;
+        font-size: 2em;
+    }
+    .playlist {
+        font-size: 2em;
+        padding-left: 25%;
+    }
+    .frase {
+        height: 300px;
     }
     .buenafrase h4 {
         font-size: 1em;
@@ -425,17 +457,21 @@ h5 strong {
     }
     .LogDisk {
         margin: auto;
-        position: relative;
-        z-index: 2;
     }
     .logo-music h3 {
-        padding-left: 0;
-        position: absolute;
-        z-index: 1;
-        font-size: 10px;
+        font-size: 1em;
         padding-left: 40%;
     }
     .playlist {
-        padding-left: 25%;
+        padding-left: 30%;
+        font-size: 1.2em;
+    }
+    .social-link {
+        width: 45px;
+        height: 45px;
+        background-size: 75px;
+    }
+    .frase {
+        height: 200px;
     }
 }
