@@ -352,6 +352,7 @@ h5 strong {
     .header {
         display: block;
         height: auto;
+        margin: 0;
     }
     .header ol {
         display: block;
@@ -361,6 +362,9 @@ h5 strong {
     }
     .header a {
         justify-content: center;
+    }
+    .hero {
+        margin: 0;
     }
     h1 {
         text-align: center;
