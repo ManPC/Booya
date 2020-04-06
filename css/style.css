@@ -229,22 +229,24 @@ h3 strong {
     height: 500px;
     background-image: url("https://i.imgur.com/e7txA8o.jpg");
     background-repeat: no-repeat;
-    background-size: 1200px 500px;
-    background-position: center;
+    background-size: 100%;
     margin: 0;
+    position: relative;
 }
 
 .buenafrase {
-    padding: 100px 20px;
+    position: absolute;
+    width: 100%;
 }
 
 .buenafrase h4 {
     color: white;
     font-family: 'Shadows Into Light', cursive;
     font-weight: lighter;
+    font-size: 2em;
     text-align: right;
-    margin: 100px 20px;
-    font-size: 35px;
+    position: absolute;
+    left: 40%;
 }
 
 h4 strong {
@@ -255,7 +257,7 @@ h4 strong {
     height: 500px;
     background-image: url("https://i.imgur.com/avUTtWZ.jpg");
     background-repeat: no-repeat;
-    background-size: 1200px 500px;
+    background-size: 100%;
     background-position: center;
 }
 
@@ -385,6 +387,9 @@ h5 strong {
     .reproducer {
         padding-right: 25%;
     }
+    .buenafrase h4 {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -399,6 +404,9 @@ h5 strong {
     .logo-music h3 {
         padding-left: 0;
         padding-top: 10%;
+    }
+    .buenafrase h4 {
+        font-size: 1em;
     }
 }
 
